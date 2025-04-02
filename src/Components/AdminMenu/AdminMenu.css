@@ -1,0 +1,40 @@
+/* Основной контейнер */
+.admin-container {
+    padding: 20px;
+    min-height: 80vh; /* Минимальная высота для контейнера */
+}
+
+/* Боковая панель */
+.sidebar {
+    background-color: #f8f9fa; /* Светлый фон */
+    padding: 20px;
+    border-right: 1px solid #dee2e6; /* Граница справа */
+    min-height: 60vh; /* Минимальная высота для боковой панели */
+    border-radius: 20px;
+}
+
+/* Ссылки в боковой панели */
+.nav-link {
+    color: #333; /* Цвет текста */
+    padding: 10px 15px; /* Отступы */
+    margin: 5px 0; /* Внешние отступы */
+    border-radius: 5px; /* Скругление углов */
+    transition: background-color 0.3s ease; /* Плавный переход */
+}
+
+.nav-link:hover {
+    background-color: #007bff; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+}
+
+/* Основное содержимое */
+.main-content {
+    padding: 20px;
+}
+
+/* Карточка для основного содержимого */
+.admin-card {
+    border: none; /* Убираем границу */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Тень */
+    border-radius: 10px; /* Скругление углов */
+}

@@ -1,0 +1,63 @@
+/* Общие стили */
+.table-secondary {
+    background-color: #f8f9fa !important;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif; /* Применение шрифта */
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #eee; /* Светло-серый фон */
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Изображения */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Списки */
+ul, ol {
+    list-style: none;
+}
+
+/* Формы */
+button, select, textarea {
+    font: inherit;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    appearance: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Таблица */
+table {
+    border-collapse: collapse;
+}
